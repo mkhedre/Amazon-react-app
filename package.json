@@ -1,0 +1,31 @@
+{
+  "name": "Amazona",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "1. create folder structure",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkhedre/Amazon-react-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkhedre/Amazon-react-app/issues"
+  },
+  "homepage": "https://github.com/mkhedre/Amazon-react-app#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-plugin-react": "^7.29.3",
+    "nodemon": "^2.0.15"
+  }
+}
